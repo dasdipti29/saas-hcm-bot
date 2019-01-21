@@ -9,7 +9,7 @@
   }
   Bots.destroy();
 // to clear the client whenever the page is reloaded including page navigation 
-  Bots.init({ appId: '5c1b6e4b6e393f0022d9cda0',
+  Bots.init({ appId: '5c4173a6bf27b9002276dda2',
         businessName: 'Oracle Digital Assistant',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
