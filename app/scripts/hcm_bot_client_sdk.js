@@ -32,7 +32,7 @@ getJWT();
   }).then(function(){
     Bots.updateUser({
     "givenName": access_token,
-    "surname": user_id + "-webchannel"
+    "surname": user_id
 })
 });
 
@@ -47,7 +47,8 @@ getJWT();
 				if(xhttp.readyState === 4 && xhttp.status === 200) {
 
 					access_token=JSON.parse(xhttp.responseText).access_token;
-					user_id=JSON.parse(xhttp.responseText).principal;
+					//user_id=JSON.parse(xhttp.responseText).principal;
+					user_id=JSON.parse(xhttp.responseText);
 				}
 				};
 				xhttp.send();
