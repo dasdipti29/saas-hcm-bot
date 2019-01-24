@@ -16,8 +16,7 @@ getJWT();
   Bots.destroy();
 // to clear the client whenever the page is reloaded including page navigation 
   Bots.init({ appId: '5c4173a6bf27b9002276dda2',
-       // businessName: 'Employee Assistant',
-	   businessName: Servlet_uri,
+        businessName: 'Employee Assistant',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
         businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
