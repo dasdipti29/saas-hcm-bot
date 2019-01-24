@@ -4,7 +4,10 @@
 
 var access_token=null;
 var user_id=null;
+var Servlet_uri = "https://"+window.location.host+"/fscmRestApi/tokenrelay";
 
+
+getJWT();
 // to clear the client whenever the page is reloaded including page navigation 
  var keys = Object.keys(localStorage);
   for(var i = 0; i < keys.length; i++){
