@@ -15,7 +15,7 @@ getJWT();
   }
   Bots.destroy();
 // to clear the client whenever the page is reloaded including page navigation 
-  Bots.init({ appId: '5c4173a6bf27b9002276dda2',
+  Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
         businessName: 'Employee Assistant',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
