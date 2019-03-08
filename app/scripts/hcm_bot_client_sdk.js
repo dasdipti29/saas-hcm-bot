@@ -15,11 +15,19 @@ getJWT();
   }
   Bots.destroy();
 // to clear the client whenever the page is reloaded including page navigation 
+
+
+
+
   Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
         businessName: 'Oracle Guided Learning',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
         businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
+		displayStyle: "button",
+		buttonIconUrl: https://myimage.png,
+		buttonWidth: '90',
+		buttonHeight: '90',
         customColors: {
               brandColor: '65758e',
 			  conversationColor: '65758e',
