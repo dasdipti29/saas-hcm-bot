@@ -24,6 +24,10 @@ getJWT();
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
         businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
+		displayStyle: "button",
+		buttonIconUrl: https://myimage.png,
+		buttonWidth: '90',
+		buttonHeight: '90',
         customColors: {
               brandColor: '65758e',
 			  conversationColor: '65758e',
