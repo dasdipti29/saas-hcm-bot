@@ -18,6 +18,7 @@ getJWT();
 
 Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
 		displayStyle: 'button',
+		backgroundImageUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
         businessName: 'Oracle Guided Learning',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
