@@ -18,7 +18,7 @@ getJWT();
 
 Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
 		displayStyle: 'button',
-		backgroundImageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7vI776bxRrEAuGamRPOKgKtonVFy8P_yv7yVWr9mDFSeXGlz1',
+		backgroundImageUrl: 'https://www.3esolutions.net/wp-content/uploads/2018/04/Chatbot-CTA.png',
         businessName: 'Oracle Guided Learning',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
