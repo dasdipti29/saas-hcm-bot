@@ -29,7 +29,8 @@ Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
               actionColor: '0000ff',
         },
         customText: {
-            headerText: 'Hi there, How can we help?'
+            headerText: 'Hi there, How can we help?',
+			inputPlaceholder: 'Type a message...'
 			//introductionText: 'How can I help you?'
         }
   }).then(function(){
