@@ -16,18 +16,12 @@ getJWT();
   Bots.destroy();
 // to clear the client whenever the page is reloaded including page navigation 
 
-
-
-
-  Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
+Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
+		displayStyle: 'button',
         businessName: 'Oracle Guided Learning',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
         businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
-		displayStyle: "button",
-		buttonIconUrl: https://myimage.png,
-		buttonWidth: '90',
-		buttonHeight: '90',
         customColors: {
               brandColor: '65758e',
 			  conversationColor: '65758e',
@@ -43,6 +37,28 @@ getJWT();
     "surname": user_id
 })
 });
+
+
+  //Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
+       // businessName: 'Oracle Guided Learning',
+		//fixedIntroPane: true,
+       // introductionText: 'Mobile Cloud Enterprise',
+       // businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
+       // customColors: {
+       //       brandColor: '65758e',
+		//	  conversationColor: '65758e',
+        //      actionColor: '65758e',
+        //},
+       // customText: {
+         //   headerText: 'Hi there, How can we help?'
+			//introductionText: 'How can I help you?'
+       // }
+  //}).then(function(){
+  //  Bots.updateUser({
+  //  "givenName": access_token,
+  //  "surname": user_id
+//})
+//});
 
 
 
