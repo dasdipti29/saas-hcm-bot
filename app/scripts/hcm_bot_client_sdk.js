@@ -22,7 +22,7 @@ getJWT();
 Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
 		displayStyle: 'tab',
 		backgroundImageUrl: 'https://www.intouchsol.com/wp-content/uploads/2018/01/fbhauls-herolarge.jpg',
-        businessName: 'Oracle Guided Learning',
+        businessName: 'Oracle Guided Learning1',
 		fixedIntroPane: true,
         introductionText: 'Mobile Cloud Enterprise',
         businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
