@@ -17,7 +17,7 @@ getJWT();
 // to clear the client whenever the page is reloaded including page navigation 
 
 Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
-		displayStyle: 'button',
+		displayStyle: 'tab',
 		backgroundImageUrl: 'https://www.intouchsol.com/wp-content/uploads/2018/01/fbhauls-herolarge.jpg',
         businessName: 'Oracle Guided Learning',
 		fixedIntroPane: true,
