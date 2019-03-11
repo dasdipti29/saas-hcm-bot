@@ -14,6 +14,9 @@ getJWT();
     localStorage.removeItem(keys[i]);
   }
   Bots.destroy();
+  Bots.on("ready", changeAllTags);
+  Bots.on("message:received", changeLastMessage);
+  Bots.on("message:received", deleteTagsInCarouselPreview);
 // to clear the client whenever the page is reloaded including page navigation 
 
 Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
