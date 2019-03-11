@@ -121,7 +121,7 @@ var space = document.createElement("span");
 		})
 		 const chatFrame = document.getElementById("web-messenger-container").contentDocument;
 		const cssLink = document.createElement("link");
-		cssLink.href = "https://saas-hcm-bot.herokuapp.com/custom_tag_styling.css";
+		cssLink.href = "https://saas-hcm-bot.herokuapp.com/styles/custom_tag_styling.css";
 		cssLink.rel = "stylesheet";
 		cssLink.type = "text/css";
 		//for clear conversation button
@@ -170,7 +170,7 @@ var space = document.createElement("span");
 		 chatFrame.getElementById("intro_text").appendChild(space); 
 		chatFrame.getElementById("intro_text").appendChild(addClearButton()); 
 		const cssLink = document.createElement("link");
-		cssLink.href = "https://saas-hcm-bot.herokuapp.com/custom_tag_styling.css";
+		cssLink.href = "https://saas-hcm-bot.herokuapp.com/styles/custom_tag_styling.css";
 		cssLink.rel = "stylesheet";
 		cssLink.type = "text/css";
 		 
