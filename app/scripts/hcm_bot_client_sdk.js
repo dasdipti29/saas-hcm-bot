@@ -24,9 +24,9 @@ Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
         introductionText: 'Mobile Cloud Enterprise',
         businessIconUrl: 'https://soarbotsdkclient.herokuapp.com/images/botFace.svg',
         customColors: {
-              brandColor: '65758e',
-			  conversationColor: '65758e',
-              actionColor: '65758e',
+              brandColor: '0000ff',
+			  conversationColor: '0000ff',
+              actionColor: '0000ff',
         },
         customText: {
             headerText: 'Hi there, How can we help?'
