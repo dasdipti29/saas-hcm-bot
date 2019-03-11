@@ -30,6 +30,7 @@ Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
         },
         customText: {
             headerText: 'Hi there, How can we help?',
+			introductionText: 'We\'re here to talk, so ask us anything!',
 			inputPlaceholder: 'Type a message...'
 			//introductionText: 'How can I help you?'
         }
