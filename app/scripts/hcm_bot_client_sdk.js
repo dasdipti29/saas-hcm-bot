@@ -36,18 +36,12 @@ Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
 			inputPlaceholder: 'Enter your query...',
 			//introductionText: 'How can I help you?'
         }
-  }).then(function addCustomTagStyling() {
-    const chatFrame = document.getElementById("web-messenger-container").contentDocument;
-    const cssLink = document.createElement("link");
-    cssLink.href = "https://smoochbotclient.herokuapp.com/custom_tag_styling.css";
-    cssLink.rel = "stylesheet";
-    cssLink.type = "text/css";
-	//for clear conversation button
-	 chatFrame.getElementById("intro_text").appendChild(space); 
-	chatFrame.getElementById("intro_text").appendChild(addClearButton()); 
-    chatFrame.head.appendChild(cssLink);	
-	
-  });
+  }).then(function(){
+    Bots.updateUser({
+    "givenName": access_token,
+    "surname": user_id
+})
+});
 
 
   //Bots.init({ appId: '5c7e8d08f1544100290f9e9d',
